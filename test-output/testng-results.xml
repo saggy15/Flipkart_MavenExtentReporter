@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-22T16:43:43 IST" name="Suite" finished-at="2022-07-22T16:43:57 IST" duration-ms="14481">
+    <groups>
+    </groups>
+    <test started-at="2022-07-22T16:43:43 IST" name="Test" finished-at="2022-07-22T16:43:57 IST" duration-ms="14481">
+      <class name="TestClasses.VerifyUserCanLogIn">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0]" started-at="2022-07-22T16:43:43 IST" name="beforeClass" finished-at="2022-07-22T16:43:49 IST" duration-ms="6793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0]" started-at="2022-07-22T16:43:49 IST" name="beforeMethod" finished-at="2022-07-22T16:43:49 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanLogin()[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0]" started-at="2022-07-22T16:43:49 IST" name="verifyUserCanLogin" finished-at="2022-07-22T16:43:52 IST" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0]" started-at="2022-07-22T16:43:52 IST" name="afterMethod" finished-at="2022-07-22T16:43:52 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanLogin status=SUCCESS method=VerifyUserCanLogIn.verifyUserCanLogin()[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.VerifyUserCanLogIn@5c6648b0]" started-at="2022-07-22T16:43:52 IST" name="afterClass" finished-at="2022-07-22T16:43:52 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.VerifyUserCanLogIn -->
+      <class name="TestClasses.VerifyUserCanAddNewAddress">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:52 IST" name="beforeClass" finished-at="2022-07-22T16:43:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:52 IST" name="beforeMethod" finished-at="2022-07-22T16:43:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanGoToProfilePage()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:52 IST" name="verifyUserCanGoToProfilePage" finished-at="2022-07-22T16:43:53 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanGoToProfilePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:53 IST" name="afterMethod" finished-at="2022-07-22T16:43:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanGoToProfilePage status=SUCCESS method=VerifyUserCanAddNewAddress.verifyUserCanGoToProfilePage()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:53 IST" name="beforeMethod" finished-at="2022-07-22T16:43:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="veryUserCanAddAddress()[pri:1, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:53 IST" name="veryUserCanAddAddress" finished-at="2022-07-22T16:43:57 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veryUserCanAddAddress -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:57 IST" name="afterMethod" finished-at="2022-07-22T16:43:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=veryUserCanAddAddress status=SUCCESS method=VerifyUserCanAddNewAddress.veryUserCanAddAddress()[pri:1, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.VerifyUserCanAddNewAddress@7b2bbc3]" started-at="2022-07-22T16:43:57 IST" name="afterClass" finished-at="2022-07-22T16:43:57 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.VerifyUserCanAddNewAddress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
