@@ -28,8 +28,8 @@ public class VerifyUserCanLogIn {
 	
 	static WebDriver driver;
 	LoginPage lp;
-	
-	ExtentHtmlReporter ExtentReporter;
+	//comment
+	ExtentHtmlReporter ExtentReporter;  
 	
 	ExtentReports report;
 	
@@ -56,9 +56,7 @@ public class VerifyUserCanLogIn {
 	public void verifyUserCanLogin() throws IOException, InterruptedException
 	{
 		lp.enterEmail();
-		
 		lp.enterPassword();
-		
 		lp.clickLoginBtn();
 		
 		HomePage hp = new HomePage(driver);
