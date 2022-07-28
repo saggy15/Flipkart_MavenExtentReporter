@@ -29,7 +29,6 @@ public class VerifyUserCanLogIn {
 	static WebDriver driver;
 	LoginPage lp;
 	
-	
 	ExtentHtmlReporter ExtentReporter;
 	ExtentReports report;
 	ExtentTest test;

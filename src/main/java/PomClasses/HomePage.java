@@ -11,7 +11,7 @@ public class HomePage extends Util1{
 	
 WebDriver driver;
 	
-	
+	//HomePage
 	@FindBy(xpath="//div[text()='Saggy']")
 	private WebElement profileName;
 	
